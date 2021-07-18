@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+int main() {
+
+	double weight=0;
+	
+	printf("몸무게 입력:");
+	scanf_s("%lf", &weight);
+
+	double moon = weight * 17 / 100;
+	printf("달에서의 몸무게:%lf", moon);
+	
+}
