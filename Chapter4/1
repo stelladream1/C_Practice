@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+int main() {
+
+	double num=0;
+	
+	printf("실수 입력:");
+	scanf_s("%lf", &num);
+
+	printf("실수형식:%lf\n", num);
+	printf("지수형식:%e", num);
+}
