@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+int main() {
+
+	double x;
+	
+	printf("평 입력:");
+	scanf_s("%lf", &x);
+
+	double meter = x * 3.3;
+	
+	printf("%lf", meter);
+	
+}
