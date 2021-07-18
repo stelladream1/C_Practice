@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+int main() {
+
+	int c;
+
+	printf("아스키코드 : ");
+	scanf_s("%d", &c);
+
+	printf("문자 :%c",c);
+
+}
