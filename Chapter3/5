@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+int main() {
+
+	double num=0;
+	
+	printf("실수 입력:");
+	scanf_s("%lf", &num);
+
+
+
+	double x = 3 * num * num + 7 * num + 11;
+	printf("섭씨 값:%lf", x);
+	
+}
